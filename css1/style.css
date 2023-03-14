@@ -1,0 +1,398 @@
+body{
+	margin: 0;
+}
+body{
+	animation: transitionIn 0.75s ;
+}
+@keyframes transitionIn {
+	from{
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+	to{
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
+
+html{
+	scroll-behavior: smooth;
+	/*transition: 0.1s;*/
+}
+.container{
+	width: 1300px;
+	margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+	margin: 0;
+}
+
+p{
+	color:#9F9F9F;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	line-height: 160%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,{
+	color: #4F4F4F;
+}
+
+
+a{
+    font-family: 'Work Sans', sans-serif;
+    color: #4F4F4F;
+    position: relative;
+}
+
+
+.clear {
+    clear: both;
+}
+/*Header*/
+.header{
+	background-color: #D5FBF6;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.nav p{
+	color: #4F4F4F;
+	font-size: 18px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+
+}
+.nav span{
+	color:#9F9F9F;
+	font-size: 16px;
+}
+.nav-flex ul{
+	display: inline-flex;
+	list-style-type: none;
+}
+.nav-flex li a{
+	text-decoration: none;
+	padding-left: 70px;
+}
+.nav-flex li a:hover{
+	color:#9F9F9F ;
+	transition: 0.3s;
+}
+/*Banner*/
+.banner{
+	text-align: center;
+	padding-top: 70px;
+	background-color: #D5FBF6 ;
+	margin-bottom: 80px;
+}
+.banner h1{
+	font-family: 'Loved by the King', cursive;
+	font-size: 180px;
+	color: #4F4F4F;
+	margin-top: -40px;
+	font-weight: 100;
+	margin-bottom: -60px;
+}
+.banner p{
+	color: #4F4F4F ;
+	width: 400px;
+	display: inline-grid;
+}
+.social a img{
+	margin-right: 40px;
+	margin-top: 80px;
+	margin-bottom: 140px;
+	/*position: static;*/
+}
+/*banner-img*/
+.banner-img img{
+	/*margin-top: 0px;*/
+	margin-top: -310px;
+    float: right;    
+    position: relative;
+    bottom: -18px;
+
+}
+/*.container{
+	margin-bottom: 80px;
+}*/
+.container h1{
+	font-family: 'Loved by the King', cursive;
+	font-size: 180px;
+	color: #4F4F4F;
+	text-align: center;
+	font-weight: 100;
+}
+.illus, .draw, .photo, .ui{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.hover{
+	overflow: hidden;
+	/*margin: 0px 10px;*/
+	width: 420px;
+	height: 315px;
+		}
+.hover img {
+	transform: scale(1.0);
+	transition: 0.3s ease-in-out;
+}
+.hover:hover img{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    
+}
+.hover2{
+	overflow: hidden;
+	/*margin: 0px 10px;*/
+	width: 310px;
+	height: 437px;
+		}
+.hover2 img {
+	transform: scale(1.0);
+	transition: 0.3s ease-in-out;
+}
+.hover2:hover img{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    
+}
+.hover3{
+	overflow: hidden;
+	/*margin: 0px 10px;*/
+	width: 310px;
+	height: 437px;
+		}
+.hover3 img {
+	transform: scale(1.0);
+	transition: 0.3s ease-in-out;
+}
+.hover3:hover img{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    
+}
+.hover4{
+	overflow: hidden;
+	/*margin: 0px 10px;*/
+	width: 420px;
+	height: 315px;
+		}
+.hover4 img {
+	transform: scale(1.0);
+	transition: 0.3s ease-in-out;
+}
+.hover4:hover img{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.banner-2{
+	height: 750px;
+	background-color: #FEF9F4;
+	margin-bottom: 40px;
+}
+.banner-2 img{
+	padding: 80px 0 80px 60px;
+}
+.banner-2-flex{
+	display: flex;
+}
+.para{
+	padding-top: 260px;
+    padding-left: 80px;
+}
+.para p{
+    width: 447px;
+    margin-bottom: 40px;
+    color: #4F4F4F;;
+}
+.para h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4F4F4F;
+}
+.para-2{
+	font-size: 14px;
+	opacity: 60%;
+}
+footer{
+	margin-top: 80px;
+}
+footer .banner {
+	margin: 0px;
+}
+
+/*media queries*/
+@media screen and (max-width:360px){
+	/*header and banner*/
+	.container{
+		width: 316px;
+	}
+	.nav{
+		text-align: center;
+		display: block;
+		margin-top: 0px;
+		width: 100%;
+	}
+
+   .nav p{
+	    color: #4F4F4F;
+	    font-size: 14px;
+	    width: 100%;
+   }
+   .nav span{
+   	   color:#9F9F9F;
+   	   font-size: 14px;
+   	}
+   	.nav-flex ul{
+   		display: flex;
+        justify-content: space-around;
+	    list-style-type: none;
+	    padding: 0px;
+    }
+    .nav-flex li a{
+    	text-decoration:none;
+    	padding: 0px;
+    	display: inline-flex;
+    	font-size:16px;
+    }
+    .nav-flex{
+    	padding: 0px;
+    	margin: 40px 0px;
+    	border-bottom: 1px solid #D4D4D4 ;
+    	padding-bottom: 20px;
+    }
+    .banner{
+    	text-align: center;
+    	padding-top: 30px;
+    	width: 100%;
+    	margin-top: -40px;
+    	margin-bottom: 40px;
+    }
+    .banner p{
+	  color: #4F4F4F ;
+	  display: unset;
+	  font-size: 14px;
+    }
+    .banner h1{
+      color: #4F4F4F;
+      font-size: 110px;
+      padding: 10px 0px 20px 0px;
+    }
+    .header{
+	background-color: #D5FBF6;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 0px;
+   }
+   .banner-img img{
+   	  width: 300px;
+   	  padding-top: 140px;
+   	  bottom: -15px;
+
+   }
+    .banner-img{
+   	  display: flex;
+   	  justify-content: center;
+   	  padding-bottom: 5px;
+   }
+   .social{
+   	  display: flex;
+   	  justify-content: center;
+   }
+   .social a img{
+   	  margin: 40px 30px 140px 40px;
+   }
+   /*body*/
+   .container h1{
+   	font-size: 96px;
+   }
+   .banner-2 img{
+      width: 300px;
+      height: auto;
+      padding: 30px 0px 20px 0px;
+      margin-left: 8px;
+   }
+   .banner-2-flex{
+   	display: block;
+   }
+   .para{
+   	 text-align: center;
+     margin: 0px;
+   	 padding: 0px;
+   }
+   .para p{
+   	font-size: 14px;
+   	width: 290px;
+   	margin: auto;
+   	padding-bottom: 20px;
+
+   }
+   .banner-2{
+   	height: 630px;
+   	background-color: #FEF9F4;
+    margin-bottom: 40px;
+    /*padding-bottom: 10px;*/
+   }
+   .hover{
+   	overflow: hidden;
+   	width: 318px;
+   	margin-bottom: 20px;
+   	height: 238.5px;
+
+   }
+   .hover img{
+     width: 318px;
+     height: auto;
+   }
+   
+   .ui, .illus, .draw{
+   	display: block;
+   	margin: 0px;
+   }
+   .hover2, .hover3{
+   	overflow: hidden;
+   	margin-bottom: 20px;
+   }
+   .photo{
+   	display: block;
+
+   }
+   .hover4{
+   	overflow: hidden;
+   	margin-bottom: 20px;
+   	width:310px;
+   	height: 232.5px;
+
+   }
+   .hover4 img{
+   	width: 310px;
+   }
+   /*footer*/
+   footer{
+   	margin-top: 40px;
+   }
+   footer .social a img {
+   	margin: 40px 30px 40px 40px;
+
+   }
+   footer .banner {
+   	margin-top: -40px;
+
+   }
+}
